@@ -7,4 +7,12 @@ class UserView(
     var avatar: String? = null,
     var status: String? = "offline",
     val initials: String?
-)
+) {
+
+
+    init {
+
+
+        User.Builder().avatar("").build()
+    }
+}
