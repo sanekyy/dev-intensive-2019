@@ -29,6 +29,8 @@ fun Date.add(value: Int, units: TimeUnits = TimeUnits.SECOND): Date {
     return this
 }
 
+fun Date.humanizeDiff() = "когда-то"
+
 enum class TimeUnits {
     SECOND,
     MINUTE,
